@@ -1,0 +1,140 @@
+h1,h2{
+  font-family: 'Indie Flower', cursive;
+}
+
+h1{
+  margin-top:20px;
+}
+
+h2{
+  margin-top:30px;
+  color:#ff8e38;
+}
+
+
+body {
+  display:grid;
+  border-left:20px solid #3a3a3a;
+  border-top:20px solid #3a3a3a;
+  border-right:20px solid #3a3a3a;
+  border-bottom:20px solid #3a3a3a;
+  border-radius:100px 10px 100px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    justify-items: center;
+    align-items: center;
+  background-color: #3a3a3a;
+  text-shadow: 10px 10px 10px #307cff;
+  color:white;
+}
+
+#randomImageContainer, #listImageContainer{
+  width:100%;
+  min-height: 300px;
+  
+}
+
+#randomImageContainer{
+  background-color:#fff;
+  border-left:20px solid #3a3a3a;
+  border-top:20px solid #3a3a3a;
+  border-right:10px solid #3a3a3a;
+  border-bottom:20px solid #3a3a3a;
+  border-radius:100px 10px 100px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 10px 10px 10px;
+    justify-items: center;
+    align-items: center;
+  text-shadow: 10px 10px 10px #307cff;
+}
+
+button{
+  margin-top:30px;
+  text-align:center;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: paleturquoise;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+button:hover {background-color: red}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.alert{
+  display:none;
+}
+
+img{
+  max-height:300px;
+}
+
+#listImageContainer{
+  margin-top:30px;
+}
+
+#doggoDropDown{
+  padding:2px;
+}
+
+.form-control{
+  font-size:1.2em;
+}
+
+.container-fluid{
+  background:#efefef;
+  margin-top:30px;
+  padding-bottom:30px;
+  border-left:20px solid #3a3a3a;
+  border-top:20px solid #3a3a3a;
+  border-right:30px solid #3a3a3a;
+  border-bottom:20px solid #3a3a3a;
+  border-radius:100px 10px 100px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    justify-items: center;
+    align-items: center;
+  background-color: #3a3a3a;
+  text-shadow: 10px 10px 10px #307cff;
+}
+
+.container-fluid:last-of-type{
+  background:#fff;
+  padding-bottom:30px;
+}
+
+.container, .card-deck{
+  margin-top:30px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: paleturquoise;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: red}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
